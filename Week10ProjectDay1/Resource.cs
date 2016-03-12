@@ -9,12 +9,12 @@ namespace Week10ProjectDay1
    abstract class Resource
     {
         private string title;
-        private int isbn;
+        private string isbn;
         private int length;
         private string status;
 
         public string Title { get; set; }
-        public int Isbn { get; set; }
+        public string Isbn { get; set; }
         public int Length { get; set; }
         public string Status { get; set; }
 
@@ -34,7 +34,7 @@ namespace Week10ProjectDay1
             Console.WriteLine("Enter the title");
             Title = Console.ReadLine();
             Console.WriteLine("Enter the ISBN number of the resource");
-            Isbn = int.Parse(Console.ReadLine());
+            Isbn =Console.ReadLine();
             Console.WriteLine("Enter the number of pages");
             Length = int.Parse(Console.ReadLine());
             Status = "Available";

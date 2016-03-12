@@ -23,7 +23,7 @@ namespace Week10ProjectDay1
             Console.WriteLine("Enter the DVD title");
             Title = Console.ReadLine();
             Console.WriteLine("Enter the ISBN number of the resource");
-            Isbn = int.Parse(Console.ReadLine());
+            Isbn = Console.ReadLine();
             Console.WriteLine("Enter the length in minutes");
             Length = int.Parse(Console.ReadLine());
             Status = "Available";

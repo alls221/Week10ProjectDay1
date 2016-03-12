@@ -14,6 +14,7 @@ namespace Week10ProjectDay1
             Book aBook = new Book();
             Magazine aMagazine = new Magazine();
 
+            aDvd.ViewTitle();
             aDvd.AddTitle();
             aDvd.ViewTitle();
             aDvd.CheckOut();
@@ -21,6 +22,7 @@ namespace Week10ProjectDay1
             aDvd.CheckIn();
             aDvd.ViewTitle();
 
+            aBook.ViewTitle();
             aBook.AddTitle();
             aBook.ViewTitle();
             aBook.CheckOut();
@@ -28,6 +30,7 @@ namespace Week10ProjectDay1
             aBook.CheckIn();
             aBook.ViewTitle();
 
+            aMagazine.ViewTitle();
             aMagazine.AddTitle();
             aMagazine.ViewTitle();
             aMagazine.CheckOut();
